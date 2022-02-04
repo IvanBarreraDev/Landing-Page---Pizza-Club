@@ -37,6 +37,10 @@ nav section a:hover{
     text-shadow: 2px 2px 2px #CE5937;
     border-bottom: 2px solid #ffff;
 }
+/*MAIN*/
+main{
+    margin: 2rem 0;
+}
 /*SECTION 1*/
 .section-1{
     width: 45%;
@@ -238,7 +242,6 @@ nav section a:hover{
     .Img-P-Cont{
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 2rem;
     }
     .Img-P-Cont div{
         width: 80%;
