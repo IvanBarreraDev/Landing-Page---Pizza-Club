@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8c84e;
+    background-image: url("./src/PIZZA-ARRIBA.png");
+    background-size: 700px auto;
+    background-repeat: no-repeat;
+    background-position : 115% -100px;
+    height: 100vh;
+}
+/*HEADER*/
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+nav .Head-Logo{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.Head-Logo,nav section a{
+    text-decoration: none;
+    color: #FFFF;
+}
+nav section a{
+    font-weight: bold;
+    margin: 0 1rem;
+}
+nav section a:hover{
+    text-shadow: 2px 2px 2px #CE5937;
+    border-bottom: 2px solid #ffff;
+}
+/*SECTION 1*/
+.section-1{
+    width: 45%;
+    padding: 0 45% 0 10%;
+    margin: 4% 0;
+}
+.section-1 h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+.section-1 p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+.Logo{
+    padding-left: 10%;
+    width: 45%;
+    margin: auto;
+}
+/*SECTION 2*/
+.section-2{
+    margin-top: 10%;
+    width: 80%;
+    padding: 0 10%;
+}
+.section-2 h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.Img-P-Cont{
+    display: flex;
+}
+.Img-P-Cont div{
+    width: 50%;
+    margin: auto;
+}
+.Img-P-Cont div img{
+    width: 100%;
+    height: auto;
+}
+.Img-P-Cont p{
+    margin-left: 5%;
+    width: 45%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/*Media queries*/
+@media screen and (max-width:1250px) {
+    /*HEADER*/
+    body{
+        background-image: url("./src/PIZZA-ARRIBA.png");
+        background-size: 600px auto;
+        background-position : 115% -100px;
+    }
+    /*SECTION 1*/
+    .section-1{
+        width: 40%;
+        padding: 0 50% 0 10%;
+    }
+    .section-1 h1{
+        font-size: 2rem;
+    }
+    .section-1 p, .Img-P-Cont p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:999px) {
+    /*HEADER*/
+    body{
+        background-image: url("./src/PIZZA-ARRIBA.png");
+        background-size: 400px auto;
+        background-position : 115% -50px;
+    }
+    /*SECTION 1 - SECTION 2*/
+    .section-1{
+        width: 40%;
+        padding: 0 50% 0 10%;
+    }
+    .section-1 h1,.section-2 h2{
+        font-size: 2rem;
+    }
+    .section-1 p, .Img-P-Cont p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:673px){
+    /*HEADER*/
+    body{
+        background-image: url("./src/PIZZA-ARRIBA.png");
+        background-size: 170px auto;
+        background-repeat: no-repeat;
+        background-position : 115% -10px;
+    }
+    /*LOGO PIZZA CLUB*/
+    .Logo-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo{
+        padding: 0;
+        margin: auto;
+        width: 70%;
+    }
+    /*SECTION 1 */
+    .section-1{
+        width: 80%;
+        padding: 0 5%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    /*SECTION 2*/
+    .Img-P-Cont{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+    .Img-P-Cont div{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .Img-P-Cont div img{
+        width: 100%;
+        height: auto;
+    }
+    .Img-P-Cont p{
+        margin:auto;
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    /*SECTION ESTILOS COMPARTIDOS*/
+    .section-1 h1,.section-2 h2{
+        font-size: 2rem;
+    }
+    .section-1 p, .Img-P-Cont p {
+        font-size: 1rem;
+        
+    }
+    .section-1 p, .Img-P-Cont p,.section-1 h1,.section-2 h2{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:550px){
+    /*HEADER*/
+    body{
+        background-image: url("./src/PIZZA-ARRIBA.png");
+        background-size: 150px auto;
+        background-position : 115% -10px;
+    }
+    header{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2%;
+    }
+    nav .Head-Logo{
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    .Head-Logo,nav section a{
+        text-decoration: none;
+        color: #FFFF;
+    }
+    nav section a{
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin: 0 0.7rem;
+    }
+    nav
+    /*LOGO PIZZA CLUB*/
+    .Logo-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo{
+        padding: 0;
+        margin: auto;
+        width: 70%;
+    }
+    /*SECTION 1 */
+    .section-1{
+        width: 80%;
+        padding: 0 5%;
+        margin: 4rem auto;
+    }
+    /*SECTION 2*/
+    .Img-P-Cont{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+    .Img-P-Cont div{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .Img-P-Cont div img{
+        width: 100%;
+        height: auto;
+    }
+    .Img-P-Cont p{
+        margin:auto;
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    /*SECTION ESTILOS COMPARTIDOS*/
+    .section-1 h1,.section-2 h2{
+        font-size: 2rem;
+    }
+    .section-1 p, .Img-P-Cont p {
+        font-size: 1rem;
+        
+    }
+    .section-1 p, .Img-P-Cont p,.section-1 h1,.section-2 h2{
+        text-align: center;
+    }
+}
